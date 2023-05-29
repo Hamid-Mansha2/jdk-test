@@ -1,3 +1,4 @@
+language: ruby
 os: linux
 arch: arm64
 group: edge
@@ -6,4 +7,3 @@ dist: jammy
 before_install:
   - sudo apt-get update
   - sudo apt-get install openjdk-11-jdk
-
